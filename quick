@@ -1,0 +1,15 @@
+@echo off
+
+echo 1、1
+
+echo 2、2
+
+set /p a=请输入数字登录的账号：
+
+if %a%==1 REG IMPORT 1.reg
+
+if %a%==2 REG IMPORT 2.reg
+
+start "" "E:\Genshin Impact\Genshin Impact Game\YuanShen.exe"
+
+exit
